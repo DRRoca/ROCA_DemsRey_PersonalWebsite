@@ -1,85 +1,92 @@
 *{
-padding : 0;
-margin : 0;
-border : 0;
-background-color: #F0F8FF;
+	padding : 0;
+	margin : 0;
+	border : 0;
+	background-color: #F0F8FF;
 }
 .body{
-display : block;
-width : 1000px;
-overflow : auto;
-margin : 0 auto 0 auto;
+	display : block;
+	width : 1000px;
+	overflow : auto;
+	margin : 0 auto 0 auto;
 }
 .pageHeader{
-background-color : white;
-float : left;
-clear : none;
-height : 100px;
-width : 100%;
+	background-color : white;
+	float : left;
+	clear : none;
+	height : 100px;
+	width : 100%;
 }
 .pageHeaderFixed{
-background-color : white;
-float : left;
-clear : none;
-height : 100px;
-width : 100%;
-position: fixed;
+	background-color : white;
+	float : left;
+	clear : none;
+	height : 100px;
+	width : 100%;
+	position: fixed;
 }
 .pageLeftMenu{
-background-color : rgba(255,84,239,0.4);
-float : left;
-clear : none;
-height : 1000px;
-width : 160px;
+	background-color : rgba(255,84,239,0.4);
+	float : left;
+	clear : none;
+	height : 1000px;
+	width : 160px;
 }
 .pageContent{
-background-color : rgba(99,255,165,0.4);
-float : left;
-clear : none;
-height : 1000px;
-width : 680px;
+	background-color : rgba(99,255,165,0.4);
+	float : left;
+	clear : none;
+	height : 1000px;
+	width : 680px;
 }
 .pageRightMenu{
-background-color : rgba(255,76,232,0.4);
-float : left;
-clear : none;
-height : 1000px;
-width : 160px;
+	background-color : rgba(255,76,232,0.4);
+	float : left;
+	clear : none;
+	height : 1000px;
+	width : 160px;
 }
 .pageFooter{
-background-color : rgba(196,255,52,0.4);
-float : left;
-clear : none;
-height : 300px;
-width : 100%;
+	background-color : rgba(196,255,52,0.4);
+	float : left;
+	clear : none;
+	height : 300px;
+	width : 100%;
 }
 #menu{
 	background-color: white;
-}
-ul#menu li{
-	background-color: white;
-	display: inline;
-	margin: 40px;
-	font-family: Sans-serif;
-	border: none;
-	padding: 0;
 }
 a:link.menuLink{
 	color: #182154;
 	background-color: white;
 	text-decoration: none;
+	position: relative;
+	float: left;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
-a:hover.menuLink li{
+a:hover.menuLink{
 	text-decoration: none;
+}
+.menuContainer{
+	float: right;
+	height:100%;
 	background-color: white;
-	box-shadow: 0px 0px 150px #000000;
-    z-index: 2;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.5);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.5);   
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.5);
-    transition: all 200ms ease-in;
-	transform: scale(1.5);
+}
+.menuLinkDiv
+{
+	background-color: white;
+	display:inline-block;
+	border:0;
+	width:150px;
+	height:100%;
+	position: relative;
+	transform: scale(1);
+}
+.menuLinkDiv:hover
+{
+	box-shadow: 0px -15px 15px #000000;
+	z-index: 2;
+	transform: scale(1.2);
 }
