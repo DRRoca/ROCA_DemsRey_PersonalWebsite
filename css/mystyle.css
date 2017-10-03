@@ -111,17 +111,26 @@ a:hover.menuLink{
 	top: 70px;
 	left: 260px;
 	border: 15px solid rgba(0, 0, 0, .5);
+	transition: all 0.4s ease-in-out;
 }
 .strip{
 	width: 0px;
 	height: 50px;
 	background-color: yellow;
-	top: 100px;
 	position:absolute;
-	top: 100px;
 	left: 390px;
 	font-size: 0em;
-	transition: all 0.5s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	 box-shadow: -3px 3px 12px 3px rgba(0,0,0,0.19);
+}
+#strip1{
+	top: 100px;
+}
+#strip2{
+	top:200px;
+}
+#strip3{
+	top:300px;
 }
 .portrait{
 	max-width: 480px;
@@ -129,10 +138,23 @@ a:hover.menuLink{
 }
 .pageContent:hover .divCircle{	
 	left: 50px;
-	transition: 0.8s;
+	transition: 0.7s;
 }
-.pageContent:hover .strip{	
+.pageContent:hover #strip1{	
 	width: 470px;
 	font-size: 2em;
-	transition: 0.8s;
+	transition: 1s;
 }
+.pageContent:hover #strip2{	
+	width: 250px;
+	font-size: 2em;
+	transition: 1s;
+}
+.pageContent:hover #strip3{	
+	width: 300px;
+	font-size: 2em;
+	transition: 1s;
+}
+
+
+
