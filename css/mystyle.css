@@ -5,30 +5,31 @@
 	background-color: #F0F8FF;
 }
 body{
-	background-color: 	#a7adba;
+	background-color: 	#caedcc;
 }
 .body{
 	display : block;
-	width : 1000px;
+	width : 1020px;
 	overflow : auto;
 	margin : 0 auto 0 auto;
 	background-color: 	#f9c05c;
 }
 .pageHeader{
-	background-color : #4f5b66;
+	background-color :#35474d;
 	float : left;
 	clear : none;
 	height : 100px;
 	width : 100%;
 }
 .pageHeaderFixed{
-	background-color : #4f5b66;
+	background-color : #35474d;
 	float : left;
 	clear : none;
 	height : 100px;
 	width : 100%;
 	position: fixed;
 	box-shadow: 0px -4px 15px #000000;
+	z-index: 5;
 }
 .pageLeftMenu{
 	background-color : rgba(255,84,239,0.4);
@@ -38,10 +39,10 @@ body{
 	width : 160px;
 }
 .pageContent{
-	background-color: 	#a7adba;
+	background-color: 	#caedcc;
 	float : left;
 	clear : none;
-	height : 1000px;
+	height : 2000px;
 	width : 100%;
 }
 .pageRightMenu{
@@ -52,22 +53,22 @@ body{
 	width : 160px;
 }
 .pageFooter{
-	background-color : rgba(196,255,52,0.4);
+	background-color : 	#35474d;
 	float : left;
 	clear : none;
 	height : 300px;
 	width : 100%;
 }
 #menu{
-	background-color: #4f5b66;
+	background-color: #35474d;
 }
 .menuLink{
 	font-family: Century Gothic;
 	color: #c0c5ce;
-	background-color:#4f5b66;
+	background-color:#35474d;
 }
 a:link.menuLink{
-	background-color: #4f5b66;
+	background-color: #35474d;
 	text-decoration: none;
 	position: relative;
 	float: left;
@@ -81,11 +82,11 @@ a:hover.menuLink{
 .menuContainer{
 	float: right;
 	height:100%;
-	background-color: #4f5b66;
+	background-color: #35474d;
 }
 .menuLinkDiv
 {
-	background-color: #4f5b66;
+	background-color: #35474d;
 	display:inline-block;
 	border:0;
 	width:150px;
@@ -114,29 +115,32 @@ a:hover.menuLink{
 	height: 480px;
 	border-radius: 50%;
 	top: 70px;
-	left: 260px;
+	left: 270px;
 	/*border: 15px solid rgba(0, 0, 0, .5);*/
 	transition: all 0.4s ease-in-out;
+	z-index: 4;
 }
 .strip{
 	width: 0px;
 	height: 50px;
-	background-color: white;
+	background-color: #d2efee;
 	position:absolute;
 	/*display:inline-block;*/
 	left: 390px;
-	font-size: 0em;
+	font-size: 0px;
 	transition: all 0.4s ease-in-out;
 	box-shadow: -2px 2px 5px 2px rgba(0,0,0,0.19);
 	transform: skew(20deg);
-	padding: 5px 20px;
 	border-radius: 5px;
 }
 .stripText{
-	background-color: white;
-	display:block;
+	color: #35474d;
+	background-color: #d2efee;
+	display: block;
 	transform: skew(-20deg);
 	margin-top: 5px;
+	font-family: Nexa Rust Sans Black;
+	letter-spacing: 9px;
 }
 #strip1{
 	top: 100px;
@@ -156,20 +160,48 @@ a:hover.menuLink{
 	transition: 0.7s;
 }
 .pageContent:hover #strip1{	
-	width: 470px;
-	font-size: 2em;
+	width: 500px;
+	padding: 5px 20px;
+	font-size: 30px;
 	transition: 1s;
 }
 .pageContent:hover #strip2{	
-	width: 250px;
-	font-size: 2em;
+	width: 400px;
+	padding: 5px 20px;
+	font-size: 30px;
 	transition: 1s;
 }
 .pageContent:hover #strip3{	
 	width: 300px;
-	font-size: 2em;
+	padding: 5px 20px;
+	font-size: 30px;
 	transition: 1s;
 }
+.divInfo1{
+	position: relative;
+	width: 88.5%;
+	margin: auto;
+	height: 300px;
+	background-color: #d2efee;
+	box-shadow: -2px 2px 5px 2px rgba(0,0,0,0.19);
+	z-index: 3;
+	transform: skew(20deg);
+	border-radius: 30px;
+	margin-bottom: 10px;
+}
+.divInfo2{
+	position: relative;
+	width: 88.5%;
+	margin: auto;
+	height: 300px;
+	background-color: #d2efee;
+	box-shadow: -2px 2px 5px 2px rgba(0,0,0,0.19);
+	z-index: 3;
+	transform: skew(-20deg);
+	border-radius: 30px;
+	margin-bottom: 10px;
+}
+
 
 
 
