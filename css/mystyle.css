@@ -320,3 +320,30 @@ a:hover.menuLink{
 	height: 300px;
 	background-color: rgba(255,255,255,.8);
 }
+.pic1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url("../images/portfolio/1.jpg");
+	background-size: cover;
+	background-position: center;
+	opacity: .5;
+}
+.pic1:hover{
+	top: -25px;
+	left: -30px;
+	width: 467px;
+	height: 350px;
+	background-image: url("../images/portfolio/1.jpg");
+	opacity: 1;
+	z-index: 1;
+	transition: all .2s ease;
+}
+
+
+
+
+
+
