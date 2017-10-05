@@ -43,7 +43,7 @@ body{
 	position: relative;
 	float : left;
 	clear : none;
-	height : 1600px;
+	height : 1530px;
 	width : 100%;
 	box-shadow: -2px 2px 5px 2px rgba(0,0,0,0.19);
 	border-radius: 30px;
@@ -111,15 +111,6 @@ a:hover.menuLink{
 	z-index: 2;
 	transform: scale(1.2);
 }
-/*.divCircle{
-	width: 650px;
-	height: 650px;
-	border-radius: 50%;
-	margin-top: 70px;
-	margin-right: auto;
-	margin-left: auto;
-	border: 15px solid rgba(0, 0, 0, .5);
-}*/
 .divCircle{
 	position: relative;
 	max-width: 480px;
@@ -127,7 +118,7 @@ a:hover.menuLink{
 	border-radius: 50%;
 	top: 70px;
 	left: 270px;
-	/*border: 15px solid rgba(0, 0, 0, .5);*/
+	
 	transition: all 0.4s ease-in-out;
 	z-index: 4;
 }
@@ -136,7 +127,6 @@ a:hover.menuLink{
 	height: 50px;
 	background-color: #d2efee;
 	position:absolute;
-	/*display:inline-block;*/
 	left: 390px;
 	font-size: 0px;
 	transition: all 0.4s ease-in-out;
@@ -307,9 +297,26 @@ a:hover.menuLink{
 	left: 190px;
 	background-color: #d2efee;
 }
-
-
-
-
-
-
+.portfolioTitle{
+	font-family: Nexa Rust Sans Black;
+	background-color: #19aba7;
+	text-align: center;
+	letter-spacing: 5px;
+	word-spacing: 2px;
+	font-size: 60px;
+	display: block;
+	position: relative;
+	top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #35474d;
+}
+#row1{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: 200px;
+	width: 900px;
+	height: 300px;
+	background-color: rgba(255,255,255,.8);
+}
