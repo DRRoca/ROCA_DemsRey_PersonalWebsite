@@ -457,3 +457,12 @@ a:hover.menuLink{
 	z-index: 1;
 	transition: all .2s ease;
 }
+#row3{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: 200px;
+	width: 900px;
+	height: 300px;
+	background-color: rgba(255,255,255,.8);
+}
