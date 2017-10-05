@@ -38,11 +38,18 @@ body{
 	height : 1000px;
 	width : 160px;
 }
+#portfolio{
+	background-color: #19aba7;
+	float : left;
+	clear : none;
+	height : 1600px;
+	width : 100%;
+}
 .pageContent{
 	background-color: 	#caedcc;
 	float : left;
 	clear : none;
-	height : 1600px;
+	height : 1300px;
 	width : 100%;
 }
 .pageRightMenu{
@@ -263,23 +270,30 @@ a:hover.menuLink{
 .sy{
 	font-family: MS Reference Sans Serif;
 	text-align: center;
-	font-size: 17px;
+	font-size: 13px;
 }
 .schAdd{
 	font-family: MS Reference Sans Serif;
 	text-align: center;
-	font-size: 17px;
+	font-size: 13px;
 }
 .education{
 	display: block;
 	text-align: left;
 	background-color: #d2efee;
 }
-.schoolDiv{
+.schoolDiv1{
 	width: 100%;
 	position: absolute;
-	top: 100px;
+	top: 90px;
 	left: 150px;
+	background-color: #d2efee;
+}
+.schoolDiv2{
+	width: 100%;
+	position: absolute;
+	top: 150px;
+	left: 170px;
 	background-color: #d2efee;
 }
 
