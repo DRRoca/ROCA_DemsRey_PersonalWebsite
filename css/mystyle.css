@@ -10,9 +10,9 @@ body{
 .body{
 	display : block;
 	width : 1020px;
-	overflow : auto;
+	overflow : hidden;
 	margin : 0 auto 0 auto;
-	background-color: 	#f9c05c;
+	background-color: #caedcc;
 }
 .pageHeader{
 	background-color :#35474d;
@@ -40,10 +40,14 @@ body{
 }
 #portfolio{
 	background-color: #19aba7;
+	position: relative;
 	float : left;
 	clear : none;
 	height : 1600px;
 	width : 100%;
+	box-shadow: -2px 2px 5px 2px rgba(0,0,0,0.19);
+	border-radius: 30px;
+	margin-bottom: 20px;
 }
 .pageContent{
 	background-color: 	#caedcc;
